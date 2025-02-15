@@ -6,8 +6,13 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- *
- * @author jerson_ramos
+ * 
+ * @author Jerson_ramos
+ * @author Rodrigo_orellana
+ * @author Giovanni_Quijano
+ * @author Maria_palacios
+ * @author Sandra_palacios
+ * 
  */
 //clase estudiantes
 class Estudiantes{
@@ -16,6 +21,7 @@ class Estudiantes{
     String nombre;
     String carnet;
     
+    //metodo constructor de la clase estudiantes
     public Estudiantes(String nombre, String carnet){
         this.nombre = nombre;
         this.carnet = carnet;
@@ -33,7 +39,7 @@ public class RegistroEstudiantesUdbVirtual {
         //declaracion de variables
         int opcion = 0; 
             System.out.println("\t Bienvenido al sistema de registro de alumno");
-            System.out.println("\t\t De la  UDB virtual Materia ");
+            System.out.println("\t\t De la  UDB virtual Materia POO");
         do{
             
             System.out.println("\nMenu");
@@ -73,7 +79,7 @@ public class RegistroEstudiantesUdbVirtual {
     }
     
     
-   //metodo para registrar un alumo en udb virtual
+   //metodo para registrar un alumno en udb virtual
      static void ingresarEstudiante(){
         System.out.println("Ingrese el nombre completo del alumno: ");
         String nombre = datosEntrada.nextLine();
